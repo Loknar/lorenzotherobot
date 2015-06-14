@@ -1,23 +1,21 @@
-Try it out! Code is live at
-http://www.twitch.tv/curvyllama
+What's up? We're up! Well, maybe ... go find out on
+http://www.twitch.tv/upparar
 ===============================
 
-Roboraj
-=======
+![Upparar logo](http://i.imgur.com/PBHoBBW.png)
 
-Lorenzotherobot
-===============
+upparar twitch bot
+==================
 
-This is a Twitch chat/irc bot written in python (2.7).
+Twitch chat/irc bot written in python (2.7). Forked from [https://github.com/singlerider/lorenzotherobot](Lorenzotherobot).
 
 Installation
 ============
-* Open up your terminal/shell of choice.
-* Install the [http://docs.python-requests.org/en/latest/](Requests library) if you haven't already using 'pip install requests'. I tested this application on Python 2.7.5.
-* 
-* Clone the Git repository.
-* Move config/config_example.py to config/config.py. Replace all of the placeholders there with your own username/oauth token/channels to join etc (tips are given in the file).
-* Type 'chmod +x /serve.py'. To run, you simply need to execute the file by typing './serve.py'.
+* `pip install requests`
+* Clone the Git repo
+* Copy globals_example.py to globals.py and replace placeholders
+* Copy config/config_example.py to config/config.py and replace placeholders
+* `python serve.py`
 
 
 Commands
